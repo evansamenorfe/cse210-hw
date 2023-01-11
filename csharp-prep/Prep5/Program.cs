@@ -7,8 +7,8 @@ class Program
         DisplayWelcome();
         string userName = PromptUserName();
         int userNumber = PromptUserNumber();
-        int squareNumber = SquareNumber(userNumber);
-        DisplayResult(userName, squareNumber);
+        int square = SquareNumber(userNumber);
+        DisplayResult(userName, square);
 
         static void DisplayWelcome()
         {
