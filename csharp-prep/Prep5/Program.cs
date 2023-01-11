@@ -7,8 +7,8 @@ class Program
         DisplayWelcome();
         string userName = PromptUserName();
         int userNumber = PromptUserNumber();
-        int squaredNumber = SquaredNumber(userNumber);
-        DisplayResult(userName, squaredNumber);
+        int squareNumber = SquareNumber(userNumber);
+        DisplayResult(userName, squareNumber);
 
         static void DisplayWelcome()
         {
@@ -30,7 +30,7 @@ class Program
 
         }
 
-        static int SquaredNumber(int userNumber)
+        static int SquareNumber(int userNumber)
         {
             int square = userNumber * userNumber;
             return square;
